@@ -1,0 +1,10 @@
+.env
+k8s/secret.yaml
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+.idea/
+.vscode/

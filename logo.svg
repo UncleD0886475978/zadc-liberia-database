@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="ZADC — Zao Development Organization, Liberia logo">
+  <title>ZADC Inc. Liberia — Zao Development Organization</title>
+  <desc>Project logo created for ZADC Inc. Liberia (Zao Development Council Inc.), Nimba County. No historical logo was found in UN/ReliefWeb records, so this is a new mark for the project: a water droplet and green sprout for ZADC's WASH and agriculture work, ringed by its name and home county.</desc>
+  <defs>
+    <path id="topArc" d="M 92,400 A 308,308 0 0 1 708,400"/>
+    <path id="bottomArc" d="M 92,400 A 308,308 0 0 0 708,400"/>
+  </defs>
+
+  <!-- Outer rings -->
+  <circle cx="400" cy="400" r="388" fill="#ffffff"/>
+  <circle cx="400" cy="400" r="384" fill="none" stroke="#166534" stroke-width="10"/>
+  <circle cx="400" cy="400" r="356" fill="none" stroke="#d97706" stroke-width="3"/>
+  <circle cx="400" cy="400" r="262" fill="none" stroke="#166534" stroke-width="4"/>
+
+  <!-- Ring text -->
+  <text font-family="DejaVu Sans, Arial, sans-serif" font-size="33" font-weight="bold" fill="#166534" letter-spacing="2.5">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">ZAO DEVELOPMENT ORGANIZATION</textPath>
+  </text>
+  <text font-family="DejaVu Sans, Arial, sans-serif" font-size="33" font-weight="bold" fill="#166534" letter-spacing="4">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">NIMBA COUNTY &#8226; LIBERIA</textPath>
+  </text>
+
+  <!-- Side separator diamonds -->
+  <path d="M92,382 L110,400 L92,418 L74,400 Z" fill="#d97706"/>
+  <path d="M708,382 L726,400 L708,418 L690,400 Z" fill="#d97706"/>
+
+  <!-- Sprout leaves above the droplet -->
+  <path d="M400,278 C396,240 372,210 334,200 C338,240 360,268 400,278 Z" fill="#22a355"/>
+  <path d="M400,278 C404,234 430,202 470,192 C466,236 442,268 400,278 Z" fill="#166534"/>
+
+  <!-- Water droplet (WASH work) -->
+  <path d="M400,282 C400,282 312,392 312,452 A88,88 0 0 0 488,452 C488,392 400,282 400,282 Z" fill="#0284c7"/>
+  <!-- Waves inside the droplet -->
+  <path d="M338,458 Q369,438 400,458 T462,458" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M352,492 Q378,474 404,492 T456,492" fill="none" stroke="#bae6fd" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Name -->
+  <text x="400" y="605" font-family="DejaVu Sans, Arial, sans-serif" font-size="86" font-weight="bold" fill="#14532d" letter-spacing="8" text-anchor="middle">ZADC</text>
+  <line x1="282" y1="628" x2="518" y2="628" stroke="#d97706" stroke-width="4"/>
+</svg>

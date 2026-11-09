@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: zadc-postgresql-data
+  namespace: zadc
+  labels:
+    app: zadc-postgresql
+spec:
+  accessModes: ["ReadWriteOnce"]
+  resources:
+    requests:
+      storage: 10Gi
+  # storageClassName: ""   # uncomment / set to your cluster's class if needed

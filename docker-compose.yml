@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-zadc}
+      POSTGRES_USER: ${DB_USER:-zadc}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-zadc_change_me}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - zadc_postgresql_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-zadc} -d ${DB_NAME:-zadc}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+volumes:
+  zadc_postgresql_data:

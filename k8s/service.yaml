@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: zadc-postgresql
+  namespace: zadc
+  labels:
+    app: zadc-postgresql
+spec:
+  type: ClusterIP
+  selector:
+    app: zadc-postgresql
+  ports:
+    - port: 5432
+      targetPort: 5432
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: zadc-postgresql-headless
+  namespace: zadc
+  labels:
+    app: zadc-postgresql
+spec:
+  clusterIP: None
+  selector:
+    app: zadc-postgresql
+  ports:
+    - port: 5432
+      targetPort: 5432
