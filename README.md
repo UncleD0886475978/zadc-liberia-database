@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./logo.png" width="190" alt="ZADC — Zao Development Organization, Liberia logo"/>
+<img src="./logo.svg" width="190" alt="ZADC — Zao Development Organization, Liberia logo"/>
 
 # 🌍 zadc-liberia-database
 
@@ -186,7 +186,7 @@ Themed business databases & cloud environments, same bootstrap pattern:
 
 No historical ZADC logo was found in the UN / ReliefWeb record or anywhere
 online (the organization has no modern website, and its 1997–2008 reporting
-is text-only) — so the logo in this repo (`logo.svg` / `logo.png`) is a
+is text-only) — so the logo in this repo (`logo.svg`) is a
 **new mark created for this project**, not a reproduction of an original.
 It combines a water droplet and green sprout — ZADC's WASH and agriculture
 work — with a single gold star for Liberia, ringed by the organization's
